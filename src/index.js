@@ -27,9 +27,9 @@ renderMethod(
       <Routes />
     </BrowserRouter>
   </ApolloProvider>,
-  document.getElementById('app') // eslint-disable-line no-undef
+  document.getElementById('app')
 );
-/* eslint-disable */
+
 if (typeof module.hot !== 'undefined') {
-  module.hot.accept(); // eslint-disable-line
+  module.hot.accept();
 }
