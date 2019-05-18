@@ -1,6 +1,6 @@
 # React Server Side Rendering + GraphQL boilerplate
 
-This boilerplate implements **hot reloading** for changes in client side, but if the change is made in server it needs to be restarted (for exmpla generate new schema for graphql if it needs to be updated).
+This boilerplate implements **hot reloading** for changes in client side, but if the change is made in server it needs to be restarted (for example generate new schema for graphql if it needs to be updated).
 
 For **CSS** styled components are added because they can be nicely integrated in server side, so there are no css conflicts between what is rendered from server and what from client. also there are no css conflicts if there are no classNames, styled components are completely scoped inside each component. If tests are added, styled components' css can be tested easily.
 
